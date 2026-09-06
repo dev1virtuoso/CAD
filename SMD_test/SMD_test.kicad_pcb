@@ -117,7 +117,7 @@
 			(plotreference yes)
 			(plotvalue yes)
 			(plotfptext yes)
-			(plotinvisibletext no)
+			(plotinvisibletext yes)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk no)
 			(outputformat 1)
@@ -2374,8 +2374,8 @@
 		(uuid "cd67c944-7b57-40ef-b9a8-ce732ce13c10")
 	)
 	(gr_text "Carson\n"
-		(at 167.46 78.97 -0)
-		(layer "B.Cu")
+		(at 167.46 78.97 0)
+		(layer "B.SilkS")
 		(uuid "3854f846-839d-4c92-8333-7ea643230c6b")
 		(effects
 			(font
@@ -2387,8 +2387,8 @@
 		)
 	)
 	(gr_text "v1.0"
-		(at 130.16 122.77 -0)
-		(layer "B.Cu")
+		(at 130.16 122.77 0)
+		(layer "B.SilkS")
 		(uuid "57224f49-ac8a-41fe-8e17-086465fea886")
 		(effects
 			(font
@@ -2400,8 +2400,8 @@
 		)
 	)
 	(gr_text "07/SEPT/\n2026"
-		(at 137.06 122.87 -0)
-		(layer "B.Cu")
+		(at 137.06 122.87 0)
+		(layer "B.SilkS")
 		(uuid "8b3f0a6a-ac0d-439b-b5b7-8ce9db147fe0")
 		(effects
 			(font
@@ -2412,8 +2412,8 @@
 		)
 	)
 	(gr_text "Wu\n"
-		(at 167.06 81.27 -0)
-		(layer "B.Cu")
+		(at 167.06 81.27 0)
+		(layer "B.SilkS")
 		(uuid "909c3451-a4cf-4548-8acc-d765bb8f8487")
 		(effects
 			(font
@@ -2424,9 +2424,22 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "im nayeon! \nyoo jeongyeon! \nmomo-jjang! \nsana-jjang!\npark jihyo! \nmina-jjang! \nkim dahyun! \nson chaeyoung! \nchou tzuyu!\nwon ineo millieon! \nsesange dan hanappunin \nteu.wa.i.seu"
+		(at 167.1 91.4 0)
+		(layer "B.SilkS")
+		(uuid "9c4d28b2-f30f-4805-9db1-ddad4fefd9b6")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "SMD Test"
-		(at 137.06 118.07 -0)
-		(layer "B.Cu")
+		(at 137.06 118.07 0)
+		(layer "B.SilkS")
 		(uuid "d725a5ad-ade8-4dd7-ba58-78365e39514c")
 		(effects
 			(font
