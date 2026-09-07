@@ -2476,6 +2476,19 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "Twicetagram\nEyes Wide Open\nFormula of Love: \nO+T=<3\nThis Is For\nTen: The Story \nGoes On"
+		(at 167.2 90.7 0)
+		(layer "B.SilkS")
+		(uuid "b86042cd-e501-429d-b127-22f12b6b74c9")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "C1\n"
 		(at 164.2 119.9 90)
 		(layer "B.SilkS")
