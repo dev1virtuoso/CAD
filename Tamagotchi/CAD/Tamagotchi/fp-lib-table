@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "ESP-32-C3-SuperMini") (type "KiCad") (uri "${KIPRJMOD}/KiCad_ESP32-C3-SuperMini/ESP32-C3-SuperMini.pretty") (options "") (descr ""))
 	(lib (name "spo2_stuff") (type "KiCad") (uri "${KIPRJMOD}/spo2_stuff.pretty") (options "") (descr ""))
+	(lib (name "Tamagotchi") (type "KiCad") (uri "${KIPRJMOD}/Tamagotchi.pretty") (options "") (descr ""))
 )
