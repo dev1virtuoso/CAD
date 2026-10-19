@@ -4163,7 +4163,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8eca6597-bed0-4ea1-b24c-2142a531c5ce")
+			(uuid "c68bce6c-2d67-4315-a394-97a9d43fb81e")
 			(effects
 				(font
 					(size 1 1)
@@ -4175,7 +4175,7 @@
 			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "d369d57b-5c04-4608-a0a5-c95adf0e6ff5")
+			(uuid "f0bec541-8438-418d-b994-f1c73c503ad4")
 			(effects
 				(font
 					(size 1 1)
@@ -4188,7 +4188,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6d82083b-4e09-4cfb-810a-9023ec69903c")
+			(uuid "50de0411-1614-45ce-bc03-32a0e7140aab")
 			(effects
 				(font
 					(size 1 1)
@@ -4201,7 +4201,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f8543d9b-0d7f-43c1-97f0-17fa6a487f84")
+			(uuid "157f3070-2b0b-4568-bd91-9718e9a3e3e2")
 			(effects
 				(font
 					(size 1 1)
@@ -6478,6 +6478,58 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "148edfe0-9976-4a06-bb4c-ee96c0249ce8")
+	)
+	(gr_text "ESP32-C3-SuperMini"
+		(at 126.492 120.396 90)
+		(layer "F.SilkS")
+		(uuid "118afcd9-01e9-4df2-b151-6844aadbd219")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SSD1306"
+		(at 140.208 80.772 0)
+		(layer "F.SilkS")
+		(uuid "227e16a9-2a3d-40ec-a9d6-57db994807c0")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Carson Wu\nTamagotchi\n19/10/2026"
+		(at 132.588 97.536 0)
+		(layer "B.SilkS")
+		(uuid "2e5fa2e3-7abb-4972-b7ce-e610a5889d60")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 152.4 82.804 0)
+		(layer "B.SilkS")
+		(uuid "ef6f2dc8-24ba-4b70-9d06-b922c77554ad")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(segment
 		(start 132.226 106.91)

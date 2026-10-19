@@ -7678,6 +7678,19 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "Carson Wu\nmuichiro_desk_lamp\n19/10/2026"
+		(at 180.34 57.404 0)
+		(layer "B.SilkS")
+		(uuid "4ccfeb70-86d1-4c1b-b333-107b1b456c0d")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "ESP32-C3-DevKitM-1"
 		(at 182.02 110 0)
 		(layer "B.SilkS")
