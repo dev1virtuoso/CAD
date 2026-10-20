@@ -556,7 +556,7 @@
       "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "muichiro_desk_lamp.stl",
       "svg": "",
       "vrml": ""
     },
