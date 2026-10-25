@@ -89,7 +89,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -6861,19 +6860,6 @@
 				(bold yes)
 			)
 			(justify left bottom)
-		)
-	)
-	(gr_text "Carson Wu\nTamagotchi\n19/10/2026"
-		(at 146.304 96.52 0)
-		(layer "B.SilkS")
-		(uuid "2e5fa2e3-7abb-4972-b7ce-e610a5889d60")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom mirror)
 		)
 	)
 	(gr_text "JLCJLCJLCJLC"
