@@ -5,230 +5,6 @@
 	(uuid "481332d1-57df-40c0-b7f8-1963eb11cc5e")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:Battery_Cell"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.524 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 1.524 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Single-cell battery"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "DC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=+ 2=-"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "battery cell"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Battery_Cell_0_1"
-				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Battery_Cell_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1252,196 +1028,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPDT"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPDT"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_SPDT_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1822,18 +1408,6 @@
 		)
 	)
 	(junction
-		(at 95.25 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "134b08b4-e625-4997-8b74-c0d2a7a4efb1")
-	)
-	(junction
-		(at 92.71 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "167be78e-b20e-4239-bf67-dc32e82c5640")
-	)
-	(junction
 		(at 97.79 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1856,12 +1430,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "325683f5-4863-40a1-b714-3e439a2adacb")
-	)
-	(junction
-		(at 97.79 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4934e49f-7717-405b-8609-c70d2d7e79ea")
 	)
 	(junction
 		(at 81.28 119.38)
@@ -1898,6 +1466,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a584f1e7-60b1-4514-b35f-c897b137f877")
+	)
+	(junction
+		(at 86.36 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5c5e61b-035c-4fc1-b6fd-c98486b572d8")
 	)
 	(junction
 		(at 160.02 101.6)
@@ -1956,10 +1530,6 @@
 		(uuid "5d11d79f-b557-4d64-93b0-b2b6b37c3b18")
 	)
 	(no_connect
-		(at 92.71 104.14)
-		(uuid "5d8826b2-65d1-4d9c-a973-5bcb5d51f134")
-	)
-	(no_connect
 		(at 52.07 116.84)
 		(uuid "608cc9c8-bb53-439a-9a9f-7804f3672525")
 	)
@@ -1978,16 +1548,6 @@
 	(no_connect
 		(at 74.93 114.3)
 		(uuid "ea202547-8a9a-42b9-b2c4-45dd1f4105df")
-	)
-	(wire
-		(pts
-			(xy 78.74 106.68) (xy 82.55 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02b1e638-2358-4515-b882-d9406ef79ab8")
 	)
 	(wire
 		(pts
@@ -2031,16 +1591,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 76.2) (xy 97.79 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1533a131-75b6-4553-9504-d0bd068d8271")
-	)
-	(wire
-		(pts
 			(xy 123.19 124.46) (xy 74.93 124.46)
 		)
 		(stroke
@@ -2058,16 +1608,6 @@
 			(type default)
 		)
 		(uuid "1dae882d-3d40-4592-a5f7-c266425b7a62")
-	)
-	(wire
-		(pts
-			(xy 92.71 114.3) (xy 95.25 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f2cf918-0dea-4dc2-a0a5-7088f8d877fe")
 	)
 	(wire
 		(pts
@@ -2091,16 +1631,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 77.47) (xy 78.74 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "271e0401-8267-4f0a-8bca-9c8ce1cd7c3b")
-	)
-	(wire
-		(pts
 			(xy 189.23 76.2) (xy 189.23 78.74)
 		)
 		(stroke
@@ -2118,16 +1648,6 @@
 			(type default)
 		)
 		(uuid "2f5041f4-ae16-49da-b340-7c73ff31ea0d")
-	)
-	(wire
-		(pts
-			(xy 99.06 114.3) (xy 95.25 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30bc8bb3-c1bb-4442-974c-df1df3f88d7e")
 	)
 	(wire
 		(pts
@@ -2181,7 +1701,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 91.44) (xy 97.79 116.84)
+			(xy 97.79 76.2) (xy 97.79 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2191,7 +1711,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 101.6) (xy 95.25 114.3)
+			(xy 95.25 101.6) (xy 95.25 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2218,16 +1738,6 @@
 			(type default)
 		)
 		(uuid "504f6f76-aa84-4c53-9936-61bbb677cd3d")
-	)
-	(wire
-		(pts
-			(xy 92.71 119.38) (xy 92.71 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53dd7864-1bad-4e88-b25f-5a430b03f220")
 	)
 	(wire
 		(pts
@@ -2261,7 +1771,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 119.38) (xy 92.71 119.38)
+			(xy 81.28 119.38) (xy 86.36 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2318,16 +1828,6 @@
 			(type default)
 		)
 		(uuid "606f5d55-fa9b-45ce-83a1-33271bc02c9a")
-	)
-	(wire
-		(pts
-			(xy 92.71 109.22) (xy 92.71 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dec1999-516c-4849-8602-960ffa4100d8")
 	)
 	(wire
 		(pts
@@ -2521,16 +2021,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 77.47) (xy 78.74 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d753f24-b904-4ac0-bab0-6e0e058c2319")
-	)
-	(wire
-		(pts
 			(xy 218.44 76.2) (xy 208.28 76.2)
 		)
 		(stroke
@@ -2578,16 +2068,6 @@
 			(type default)
 		)
 		(uuid "a7d81815-db56-4abc-8c8c-98e60172c330")
-	)
-	(wire
-		(pts
-			(xy 81.28 85.09) (xy 81.28 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aba340ca-a3ed-4a8c-9d69-a98dc7c5ba98")
 	)
 	(wire
 		(pts
@@ -2691,16 +2171,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 91.44) (xy 97.79 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d66d45eb-610a-44ea-977a-656d72855ec0")
-	)
-	(wire
-		(pts
 			(xy 218.44 91.44) (xy 218.44 90.17)
 		)
 		(stroke
@@ -2748,6 +2218,16 @@
 			(type default)
 		)
 		(uuid "e06a421d-fbec-4c0d-bb4b-1d7465d9443f")
+	)
+	(wire
+		(pts
+			(xy 86.36 119.38) (xy 95.25 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1120663-a33f-4a5c-9a44-8726d9bdd0fd")
 	)
 	(wire
 		(pts
@@ -4016,8 +3496,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 81.28 82.55 0)
+		(lib_id "power:PWR_FLAG")
+		(at 86.36 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4026,31 +3506,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cbae89ba-c8b9-4e4e-adae-99854be67f4c")
-		(property "Reference" "BT1"
-			(at 85.09 79.4384 0)
+		(uuid "b98e7534-fc06-45a8-8aec-377746cccdb2")
+		(property "Reference" "#FLG01"
+			(at 86.36 117.475 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Battery_Cell"
-			(at 85.09 81.9784 0)
+		(property "Value" "PWR_FLAG"
+			(at 86.36 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Keystone_2468_2xAAA"
-			(at 81.28 81.026 90)
+		(property "Footprint" ""
+			(at 86.36 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4061,7 +3540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 81.026 90)
+			(at 86.36 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4071,41 +3550,8 @@
 				)
 			)
 		)
-		(property "Description" "Single-cell battery"
-			(at 81.28 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 81.28 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "DC"
-			(at 81.28 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 81.28 82.55 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 86.36 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4116,15 +3562,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1810cc72-2c3c-4cb3-ac91-cf62756be55e")
-		)
-		(pin "2"
-			(uuid "57efa506-cf6e-4f6f-8305-7190eb7f5a2d")
+			(uuid "d1b89fd5-93d2-466e-81ba-92df919e1317")
 		)
 		(instances
 			(project "Tamagotchi"
 				(path "/481332d1-57df-40c0-b7f8-1963eb11cc5e"
-					(reference "BT1")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -4408,168 +3851,6 @@
 			(project "Tamagotchi"
 				(path "/481332d1-57df-40c0-b7f8-1963eb11cc5e"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 87.63 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1d35dc7-24d8-41b7-801c-6ae86e9e4f10")
-		(property "Reference" "SW5"
-			(at 87.63 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 87.63 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
-			(at 87.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 87.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2ac67ea1-c6fc-4139-8e48-5ea03cbcb74a")
-		)
-		(pin "3"
-			(uuid "bb14e9cc-c679-4d4c-9cf2-2486a60f05cd")
-		)
-		(pin "2"
-			(uuid "34106b7f-4a54-4d3d-a425-2a5244a3c8e4")
-		)
-		(instances
-			(project "Tamagotchi"
-				(path "/481332d1-57df-40c0-b7f8-1963eb11cc5e"
-					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 99.06 114.3 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5cfd7cb-103b-4372-a9f5-dcc322ae2ed2")
-		(property "Reference" "#FLG01"
-			(at 100.965 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 102.87 114.2999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 99.06 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c8719376-68a2-47d0-b85b-800c8efb5860")
-		)
-		(instances
-			(project "Tamagotchi"
-				(path "/481332d1-57df-40c0-b7f8-1963eb11cc5e"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
