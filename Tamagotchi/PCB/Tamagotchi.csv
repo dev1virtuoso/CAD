@@ -1,0 +1,10 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"BT1";"BatteryHolder_Keystone_2468_2xAAA";1;"Battery_Cell";;;
+2;"C1, C2, C3, C4";"C_0805_2012Metric";4;"100N";;;
+3;"D1";"LED_0805_2012Metric";1;"LED";;;
+4;"R1, R2, R3, R4";"R_0805_2012Metric";4;"1k";;;
+5;"R5";"R_0805_2012Metric";1;"1K";;;
+6;"SW1, SW2, SW3, SW4";"SW_SPST_TL3342";4;"SW_Push";;;
+7;"SW5";"SW_SPDT_PCM12";1;"SW_SPDT";;;
+8;"U1";"ESP32-C3-SuperMini";1;"ESP32-C3-SuperMini";;;
+9;"U2";"SSD1306";1;"SSD1306";;;

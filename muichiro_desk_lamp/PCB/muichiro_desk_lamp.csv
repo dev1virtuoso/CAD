@@ -1,0 +1,7 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"C1";"C_0805_2012Metric";1;"100N";;;
+2;"D1, D2, D3, D4";"LED_0805_2012Metric";4;"LED";;;
+3;"J1";"PinSocket_1x03_P2.54mm_Vertical_SMD_Pin1Left";1;"Conn_01x03_Pin";;;
+4;"J2, J3";"PinSocket_1x08_P2.54mm_Vertical_SMD_Pin1Left";2;"Conn_01x08_Socket";;;
+5;"R1, R3, R4, R5";"R_0805_2012Metric";4;"220Ω";;;
+6;"R2";"R_0805_2012Metric";1;"1K";;;
