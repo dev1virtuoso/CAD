@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+ <object id="1">
+  <cut_id id="313" check_sum="2" connectors_cnt="4"/>
+  <connectors>
+   <connector volume_id="1" type="0" radius="0.75" height="1.5" r_tolerance="0.25" h_tolerance="0.25"/>
+   <connector volume_id="2" type="0" radius="0.75" height="1.5" r_tolerance="0.25" h_tolerance="0.25"/>
+   <connector volume_id="3" type="0" radius="0.75" height="1.5" r_tolerance="0.25" h_tolerance="0.25"/>
+   <connector volume_id="4" type="0" radius="0.75" height="1.5" r_tolerance="0.25" h_tolerance="0.25"/>
+  </connectors>
+ </object>
+ <object id="2">
+  <cut_id id="313" check_sum="2" connectors_cnt="4"/>
+  <connectors>
+   <connector volume_id="1" type="0" radius="0.75" height="1.5" r_tolerance="0.25" h_tolerance="0.25"/>
+   <connector volume_id="2" type="0" radius="0.75" height="1.5" r_tolerance="0.25" h_tolerance="0.25"/>
+   <connector volume_id="3" type="0" radius="0.75" height="1.5" r_tolerance="0.25" h_tolerance="0.25"/>
+   <connector volume_id="4" type="0" radius="0.75" height="1.5" r_tolerance="0.25" h_tolerance="0.25"/>
+  </connectors>
+ </object>
+</objects>

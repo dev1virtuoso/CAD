@@ -543,7 +543,7 @@
       "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Tamagotchi.stl",
+      "step": "Tamagotchi.glb",
       "svg": "",
       "vrml": ""
     },

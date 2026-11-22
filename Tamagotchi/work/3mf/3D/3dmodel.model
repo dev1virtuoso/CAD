@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model unit="millimeter" xml:lang="en-US" xmlns="http://schemas.microsoft.com/3dmanufacturing/core/2015/02" xmlns:BambuStudio="http://schemas.bambulab.com/package/2021" xmlns:p="http://schemas.microsoft.com/3dmanufacturing/production/2015/06" requiredextensions="p">
+ <metadata name="Application">BambuStudio-02.08.02.61</metadata>
+ <metadata name="BambuStudio:3mfVersion">1</metadata>
+ <metadata name="Copyright"></metadata>
+ <metadata name="CreationDate">2026-10-25</metadata>
+ <metadata name="Description"></metadata>
+ <metadata name="Designer"></metadata>
+ <metadata name="DesignerCover"></metadata>
+ <metadata name="DesignerUserId"></metadata>
+ <metadata name="License"></metadata>
+ <metadata name="ModificationDate">2026-10-25</metadata>
+ <metadata name="Origin"></metadata>
+ <metadata name="ProfileCover"></metadata>
+ <metadata name="ProfileDescription"></metadata>
+ <metadata name="ProfileTitle"></metadata>
+ <metadata name="Thumbnail_Middle">/Metadata/plate_1.png</metadata>
+ <metadata name="Thumbnail_Small">/Metadata/plate_1_small.png</metadata>
+ <metadata name="Title"></metadata>
+ <resources>
+  <object id="6" p:UUID="0000000b-61cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/object_11.model" objectid="1" p:UUID="000b0000-b206-40ff-9872-83e8017abed1" transform="1 0 0 0 1 0 0 0 1 0.0162296295 -2.40017509 13.1075716"/>
+    <component p:path="/3D/Objects/object_11.model" objectid="2" p:UUID="000b0001-b206-40ff-9872-83e8017abed1" transform="1 0 0 0 1 0 0 0 1.75 -36.799836 1.42033627 7.76014274"/>
+    <component p:path="/3D/Objects/object_11.model" objectid="3" p:UUID="000b0002-b206-40ff-9872-83e8017abed1" transform="1 0 0 0 1 0 0 0 1.75 40.1911602 -16.1647851 7.76014274"/>
+    <component p:path="/3D/Objects/object_11.model" objectid="4" p:UUID="000b0003-b206-40ff-9872-83e8017abed1" transform="1 0 0 0 1 0 0 0 1.75 -0.498576052 -48.8674266 7.76014274"/>
+    <component p:path="/3D/Objects/object_11.model" objectid="5" p:UUID="000b0004-b206-40ff-9872-83e8017abed1" transform="1 0 0 0 1 0 0 0 1.75 -0.445042886 43.6548491 7.76014274"/>
+   </components>
+  </object>
+  <object id="8" p:UUID="0000000c-71cb-4c03-9d28-80fed5dfa1dc" type="model">
+   <components>
+    <component p:path="/3D/Objects/object_12.model" objectid="7" p:UUID="000c0000-b206-40ff-9872-83e8017abed1" transform="1 0 0 0 1 0 0 0 1 0 0 -6.17242908"/>
+    <component p:path="/3D/Objects/object_11.model" objectid="2" p:UUID="000c0001-b206-40ff-9872-83e8017abed1" transform="0.75 0 0 0 0.75 0 0 0 1.5 -36.799836 1.42033627 7.68514274"/>
+    <component p:path="/3D/Objects/object_11.model" objectid="3" p:UUID="000c0002-b206-40ff-9872-83e8017abed1" transform="0.75 0 0 0 0.75 0 0 0 1.5 40.1911602 -16.1647851 7.68514274"/>
+    <component p:path="/3D/Objects/object_11.model" objectid="4" p:UUID="000c0003-b206-40ff-9872-83e8017abed1" transform="0.75 0 0 0 0.75 0 0 0 1.5 -0.498576052 -48.8674266 7.68514274"/>
+    <component p:path="/3D/Objects/object_11.model" objectid="5" p:UUID="000c0004-b206-40ff-9872-83e8017abed1" transform="0.75 0 0 0 0.75 0 0 0 1.5 -0.445042886 43.6548491 7.68514274"/>
+   </components>
+  </object>
+ </resources>
+ <build p:UUID="2c7c17d8-22b5-4d84-8835-1976022ea369">
+  <item objectid="6" p:UUID="00000006-b1ec-4553-aec9-835e5b724bb4" transform="1 0 0 0 1 0 0 0 1 178.450892 125.987631 -6.93514252" printable="1"/>
+  <item objectid="8" p:UUID="00000008-b1ec-4553-aec9-835e5b724bb4" transform="1 0 0 0 1 0 0 0 1 84.9331688 125.987631 19.2800007" printable="1"/>
+ </build>
+</model>
